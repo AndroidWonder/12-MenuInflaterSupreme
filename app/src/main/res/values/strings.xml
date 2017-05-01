@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">MenuInflaterActivity</string>
+    <string name="app_name">MenuInflater</string>
+    <string name="sub"><u>Submenu</u></string>
+
+</resources>
