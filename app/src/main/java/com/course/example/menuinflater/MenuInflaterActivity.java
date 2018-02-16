@@ -32,13 +32,13 @@ public class MenuInflaterActivity extends Activity {
         registerForContextMenu(img);
 
 		//show logo on action bar and hide title
-		ActionBar actionBar = getActionBar();
-		actionBar.setLogo(R.drawable.droid);
-		actionBar.setDisplayUseLogoEnabled(true);
-		actionBar.setDisplayShowHomeEnabled(true);
-		actionBar.setDisplayShowTitleEnabled(false);
+		ActionBar actionBar = getActionBar();          //create ActionBar object
+		actionBar.setLogo(R.drawable.droid);           //set logo
+		actionBar.setDisplayUseLogoEnabled(true);      //allow logo to be displayed
+		actionBar.setDisplayShowHomeEnabled(true);     //allow app icon on Action Bar
+		actionBar.setDisplayShowTitleEnabled(false);  //app title not shown
 
-    }
+	}
     
     @Override
 	public boolean onCreateOptionsMenu(Menu menu) {
