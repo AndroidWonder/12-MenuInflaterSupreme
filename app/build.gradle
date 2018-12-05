@@ -1,16 +1,12 @@
 apply plugin: 'com.android.application'
 android {
-    compileSdkVersion 25
-    buildToolsVersion '26.0.2'
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.course.example.menuinflater"
         minSdkVersion 17
-        targetSdkVersion 25
-        compileOptions {
-            sourceCompatibility JavaVersion.VERSION_1_6
-            targetCompatibility JavaVersion.VERSION_1_6
-        }
+        targetSdkVersion 28
     }
 
     buildTypes {
