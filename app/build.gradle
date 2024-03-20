@@ -14,7 +14,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
-    buildToolsVersion '33.0.1'
+
+    namespace 'com.course.example.menuinflater'
 }
 
 dependencies {
